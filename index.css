@@ -1,21 +1,22 @@
 body{
     font-family: sans-serif;
 }
+.outer{
+    padding-left: 120px; padding-right: 120px;
+}
 #pic{
     position:absolute;
     top: 63px;
-    right: 400px;
+    right: 480px;
     }
 .bigbag{
-    background-color:rgb(17, 27, 27); padding-bottom: 1950px; position: relative;
+    background-color:rgb(17, 27, 27); padding-bottom: 2070px; position: relative;
 }    
 #firstbox{
-    background-color:orange; position:absolute;left:60px;top: 200px; padding-right: 40px; padding-bottom: 24px; padding-left: 20px;
-
-
+    background-color:orange; position:absolute;left:120px;top: 200px; padding-right: 40px; padding-bottom: 25px; padding-left: 20px;
 }
 #secondbox{
-    background-color:rgb(52, 175, 212); position:absolute;left: 300px;top: 200px;  padding-left: 20px;  padding-right: 37px; padding-bottom: 20px;
+    background-color:rgb(52, 175, 212); position:absolute;left: 365px;top: 200px;  padding-left: 20px;  padding-right: 37px; padding-bottom: 21px;
 }
 #bigfont{
     font-weight: bolder;
@@ -24,16 +25,20 @@ body{
 }
 #image{
     color: rgb(12, 12, 12);
-}    
+}  
+#imagecycle{
+    color: rgb(12, 12, 12);
+    padding-right: 55px;
+}  
 .heading1{
-        position: absolute;top: 10px;right: 110px;
+        position: absolute;top: 3px;right: 130px;
         font-weight: bold;
         font-family: sans-serif,Copperplate;
-        font-size: 65px;
+        font-size: 75px;
         color: rgb(241, 22, 95);
     }
 .heading2{
-        font-size: 20px; 
+        font-size: 25px; 
         position: absolute;
         top: 120px;right: 150px; 
         font-weight: bolder; 
@@ -47,6 +52,34 @@ body{
         font-weight: bold;
         text-align: center;
         padding-right: 15px;
+    }
+    #thirdbox{
+        position:absolute;left:120px;top: 540px; padding-left: 33px; padding-bottom: 30px;padding-right: 30px;
+    }
+    #thirdbox2{
+        position: absolute;top:590px;left:380px;
+    }
+    #secondimage1{
+        position: absolute;top:50px;left:220px;
+        height:30px;
+        width:30px; 
+    }
+    #secondimage2{
+        height:30px;
+        width:30px;
+        position: absolute;top:50px;left:270px; 
+    }
+    #secondimage3{
+        height:30px;
+        width:30px; 
+        position: absolute;top:50px;left:320px;
+    }
+    #fourthbox{
+        padding-bottom: 10px; padding-left: 10px; padding-right: 10px; position: absolute;top: 770px;left:120px;
+        border-color:rgb(16, 164, 233); background-color:rgb(16, 164, 233);
+    }
+    #fourthbox1{
+        position: absolute;top: 770px;left:375px;background-color:rgb(16, 164, 233); padding-left: 10px; padding-right: 10px; padding-bottom: 44px;
     }
 .smoking{
         padding-top: 10px;
@@ -64,12 +97,25 @@ table{
     background-color: rgb(16, 164, 233);
     text-align: center;
 }
-.orange{
-    background-color: orange;
-    padding-left: 20px;
-    text-align: center;
+#fifthbox{
+    background-color:rgb(240, 77, 104); 
+    position:absolute;left:120px;top: 1060px;text-align-last: center; 
+    padding-right: 30px; padding-top: 10px; padding-bottom: 21px; padding-left: 20px;
 }
-
+#fifthbox2{
+    background-color:orange; text-align-last: center;
+    position:absolute;left:360px;top: 1060px; padding-left: 20px;  padding-right: 35px; padding-bottom: 36px;
+}
+#sixthbox{
+    position: absolute;top: 1360px; left:120px;
+    padding-left: 20px; padding-right: 7px;
+    background-color: rgb(62, 177, 243);
+}
+#seventhbox{
+     position: absolute;top: 1565px; left:120px; 
+     padding-left:20px; background-color: orange;
+     text-align: center;
+}
 label{
         font-weight: lighter;
         font-size: 12px;
@@ -79,6 +125,18 @@ label{
 .page-warp{
     width:960px;
     margin: 0 auto;
-
-
-}    
+}   
+#box8{
+    background-color:rgb(32, 185, 212); 
+    position:absolute;left:120px;top: 1770px;
+    text-align-last: center; padding-right: 45px; padding-top: 10px; padding-bottom: 20px; padding-left: 30px; padding-right: 30px;
+} 
+#box9{
+    background-color:rgb(240, 77, 104);
+    position:absolute;left: 355px;top: 1770px; 
+    padding-left: 30px;  padding-right: 35px; 
+    padding-bottom: 36px; text-align-last: center;
+}
+#topimage{
+    border-radius: 100%; border-color: white; border-style:double;border-width: 8px;
+}
